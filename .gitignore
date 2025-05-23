@@ -1,0 +1,13 @@
+.env
+__pycache__/
+**/__pycache__/
+
+migrations/README
+migrations/env.py
+migrations/script.py.mako
+alembic.ini
+
+todo
+librarians_tokens/
+tables/
+.pytest_cache/
