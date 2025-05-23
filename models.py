@@ -17,6 +17,7 @@ class Book(Base):
     date = Column(String(10))
     isbn = Column(String(13), unique=True)
     amount = Column(Integer, nullable=False)
+    description = Column(String, nullable=True)
 
 class User(Base):
     __tablename__ = "users"
